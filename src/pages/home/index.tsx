@@ -1,5 +1,5 @@
 import { Header } from "@/components/Header";
-import { Container } from "@/ui/styles/Pages/home/styles";
+import { Container } from "@/ui/styles/pages/home/styles";
 import React from "react";
 
 export default function HomePage() {
