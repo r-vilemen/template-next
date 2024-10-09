@@ -1,17 +1,19 @@
 import React from "react";
 import SEO from "@/components/SEO";
-import { LoginPageTextsSEO } from "@/components/SEO/seoTexts";
+import { HomePageTextsSEO } from "@/components/SEO/seoTexts";
 
 export default function Home() {
+  const seoText = HomePageTextsSEO;
+
   return (
     <div>
       <SEO
-        title={LoginPageTextsSEO.title}
-        description={LoginPageTextsSEO.description}
-        keywords={LoginPageTextsSEO.keywords}
-        author={LoginPageTextsSEO.author}
-        url={LoginPageTextsSEO.url}
-        image={LoginPageTextsSEO.image}
+        title={seoText.title}
+        description={seoText.description}
+        keywords={seoText.keywords}
+        author={seoText.author}
+        url={seoText.url}
+        image={seoText.image}
       />
 
       <h1>home page</h1>
