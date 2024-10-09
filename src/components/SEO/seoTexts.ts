@@ -1,5 +1,5 @@
 // SEO para a página inicial
-export const HomePageTextsSEO: object = {
+export const HomePageTextsSEO = {
   title: "Template Next.js - Inicie Seus Projetos com Facilidade",
   description:
     "Um template genérico para Next.js que facilita o início de projetos, com funcionalidades prontas e organização de pastas.",
@@ -11,7 +11,7 @@ export const HomePageTextsSEO: object = {
 };
 
 // SEO para a página de login
-export const LoginPageTextsSEO: object = {
+export const LoginPageTextsSEO = {
   title: "Login - Acesse sua Conta",
   description:
     "Faça login para acessar a área administrativa do seu projeto Next.js.",
@@ -22,7 +22,7 @@ export const LoginPageTextsSEO: object = {
 };
 
 // SEO para a página de cadastro
-export const CadastroPageTextsSEO: object = {
+export const CadastroPageTextsSEO = {
   title: "Cadastro - Crie sua Conta",
   description:
     "Cadastre-se para ter acesso ao template e suas funcionalidades personalizadas.",
@@ -33,7 +33,7 @@ export const CadastroPageTextsSEO: object = {
 };
 
 // SEO para o dashboard
-export const DashboardPageTextsSEO: object = {
+export const DashboardPageTextsSEO = {
   title: "Dashboard - Gerencie seu Projeto Next.js",
   description:
     "Acesse o dashboard para visualizar dados e gerenciar seu projeto com facilidade.",
