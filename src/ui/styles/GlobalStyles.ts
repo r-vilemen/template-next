@@ -13,6 +13,14 @@ const GlobalStyles = createGlobalStyle`
         color: #333;
     }
 
+    button {
+        cursor: pointer;
+
+        :disabled {
+            cursor: not-allowed;
+        }
+    }
+
 `;
 
 export default GlobalStyles;
