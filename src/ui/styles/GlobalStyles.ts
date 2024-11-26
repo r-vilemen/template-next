@@ -21,6 +21,36 @@ const GlobalStyles = createGlobalStyle`
         }
     }
 
+    /* add custom scrollbar in global project 👇🏼👇🏼👻 */
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: ${(props) => props.theme.colors.backgrounds.primary};
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(100deg, 
+        ${(props) => props.theme.colors.backgrounds.primary}
+        20%, 
+        ${(props) => props.theme.colors.backgrounds.quaternary}
+        50%, 
+        ${(props) => props.theme.colors.backgrounds.quaternary} 
+        100%);
+      border-radius: 20px;
+    }
+
+    /* Text selected color 👇🏼👇🏼👻 */
+    ::-moz-selection {
+      color: ${(props) => props.theme.colors.fonts.quaterny};
+      background: ${(props) => props.theme.colors.backgrounds.quaternary};
+    }
+    ::selection {
+      color: ${(props) => props.theme.colors.fonts.quaterny};
+      background: ${(props) => props.theme.colors.backgrounds.quaternary};
+    }
+
 `;
 
 export default GlobalStyles;
