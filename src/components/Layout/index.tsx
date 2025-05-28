@@ -6,6 +6,7 @@ import { Header } from "../Header";
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const router = useRouter();
 
+  // Define páginas onde o cabeçalho e o rodapé não devem ser exibidos
   // Define paths where the header and footer should not be displayed
   const hideHeaderOn = ["/login"];
   const hideFooterOn = ["/login"];
