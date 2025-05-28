@@ -37,4 +37,3 @@ next-env.d.ts
 
 # pwa files
 sw.js
-public/sw.js
