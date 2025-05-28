@@ -43,11 +43,11 @@ const GlobalStyles = createGlobalStyle`
 
     /* Text selected color 👇🏼👇🏼👻 */
     ::-moz-selection {
-      color: ${(props) => props.theme.colors.fonts.quaterny};
+      color: ${(props) => props.theme.colors.text.quaternary};
       background: ${(props) => props.theme.colors.backgrounds.quaternary};
     }
     ::selection {
-      color: ${(props) => props.theme.colors.fonts.quaterny};
+      color: ${(props) => props.theme.colors.text.quaternary};
       background: ${(props) => props.theme.colors.backgrounds.quaternary};
     }
 
